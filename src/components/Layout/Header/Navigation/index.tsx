@@ -5,28 +5,28 @@ const Navigation = () => {
     <nav>
       <ul className="flex gap-5">
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/starter_project">Home</Link>
         </li>
         <li>
-          <Link to="/aboutus">About Us</Link>
+          <Link to="/starter_project/aboutus">About Us</Link>
         </li>
         <li>
-          <Link to="/blogs">Blogs</Link>
+          <Link to="/starter_project/blogs">Blogs</Link>
         </li>
         <li>
-          <Link to="/categories">Categories</Link>
+          <Link to="/starter_project/categories">Categories</Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="/starter_project/contact">Contact</Link>
         </li>
         <li>
-          <Link to="/faqs">FAQs</Link>
+          <Link to="/starter_project/faqs">FAQs</Link>
         </li>
         <li>
-          <Link to="/reviews">Reviews</Link>
+          <Link to="/starter_project/reviews">Reviews</Link>
         </li>
         <li>
-          <Link to="/shop">Shop</Link>
+          <Link to="/starter_project/shop">Shop</Link>
         </li>
       </ul>
     </nav>

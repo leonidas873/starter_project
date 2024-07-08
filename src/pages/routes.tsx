@@ -13,7 +13,7 @@ import ShopPage from './ShopPage';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/starter_project',
     element: <Layout />, // Layout as a wrapper
     children: [
       {
